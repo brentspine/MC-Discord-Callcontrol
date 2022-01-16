@@ -1,0 +1,9 @@
+name: DiscordCallcontrol
+author: Brentspine
+version: 1.0
+description: Control your discord call with easy ingame commands and items
+main: de.brentspine.mc_dc_callcontrol.Plugin
+
+commands:
+  linkdiscord:
+    description: LinkDiscord
