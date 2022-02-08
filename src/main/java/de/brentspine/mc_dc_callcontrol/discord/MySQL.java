@@ -11,9 +11,9 @@ public class MySQL {
 
     public static String host = "localhost";
     public static String port = "3306";
-    public static String database = "links";
-    public static String user = "root";
-    public static String password = "craftmine-01";
+    public static String database = "CENSORED";
+    public static String user = "CENSORED";
+    public static String password = "CENSORED";
     public static Connection con;
     public static Connection gameCon;
 
