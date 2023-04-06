@@ -53,6 +53,7 @@ public class LinkDiscordCommand implements CommandExecutor {
                         exists = true;
                         DiscordVerification discordVerification = new DiscordVerification(player, user.getIdAsString(), plugin, discordAPI);
                         player.spigot().sendMessage(new ClickableMessage(Plugin.PREFIX).addText(ChatColor.GOLD + "Please verify the action by reacting to ").addClickHoverEvent( ChatColor.GOLD.toString() + ChatColor.BOLD + "this", ClickEvent.Action.OPEN_URL, discordVerification.getMessage().getLink().toString(), HoverEvent.Action.SHOW_TEXT, ChatColor.GREEN + "Click to open").addText(ChatColor.GOLD + " message").build());
+                        break;
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
